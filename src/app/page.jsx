@@ -11,7 +11,7 @@ import VideoScreen from "@/components/VideoScreen"
 import BackgroundEffects from "@/components/BackgroundEffects"
 
 export default function Home() {
-  const [currentScreen, setCurrentScreen] = useState(5)
+  const [currentScreen, setCurrentScreen] = useState(1)
 
   return (
     <main className="relative min-h-screen bg-gradient-to-br from-slate-900 via-black to-indigo-950/70 overflow-hidden">

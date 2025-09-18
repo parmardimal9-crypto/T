@@ -8,7 +8,7 @@ export default function Screen1({ onNext }) {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -50, }}
-            transition={{ duration: 0.6, ease: "easeInOut" }}
+            transition={{ duration: 0.8, ease: "easeInOut" }}
             className="flex flex-col items-center justify-center min-h-screen p-4 text-center"
         >
             <motion.div
@@ -31,7 +31,7 @@ export default function Screen1({ onNext }) {
                 className="text-4xl md:text-5xl font-bold mb-12 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent leading-tight"
                 style={{ textShadow: "0 0 20px rgba(168, 85, 247, 0.3)" }}
             >
-                I have something special for you<span className="text-white">❤️</span>
+                I have something special for you, Cutiepiee<span className="text-white">❤️</span>
             </motion.h1>
 
             <motion.div

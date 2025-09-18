@@ -7,7 +7,7 @@ export default function Screen5({ onReveal }) {
     <motion.div
       initial={{ opacity: 0, rotateY: 90 }}
       animate={{ opacity: 1, rotateY: 0 }}
-      exit={{ opacity: 0, rotateY: -90 }}
+      exit={{ opacity: 0, }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="flex flex-col items-center justify-center min-h-screen p-4 text-center"
     >

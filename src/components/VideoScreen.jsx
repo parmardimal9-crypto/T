@@ -14,12 +14,11 @@ export default function VideoScreen() {
 
     return (
         <motion.div
-            initial={{ opacity: 0, scale: 1.2 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            initial={{ opacity: 0, }}
+            animate={{ opacity: 1, }}
             className="fixed inset-0 bg-black z-50"
         >
-            <video ref={videoRef} className="w-full h-full object-contain" autoPlay muted={false} playsInline>
+            <video ref={videoRef} className="w-full h-full object-cover" autoPlay muted={false} playsInline>
                 <source src="/video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
